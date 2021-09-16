@@ -11,6 +11,7 @@ public class PersonController {
 
     @GetMapping
     String getPeople(Model model) {
+
         model.addAttribute("people", Arrays.asList(
                 new Person("Jaiver", 58),
                 new Person("Alesha", 42),
